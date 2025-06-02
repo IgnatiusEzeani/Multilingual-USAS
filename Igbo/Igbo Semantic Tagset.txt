@@ -273,7 +273,7 @@ for code, translation in entries:
     doc.add_paragraph(f"{code} – {translation}")
 
 # Save the document
-file_path = "/mnt/data/USAS_Igbo_Translation.docx"
+file_path = "USAS_Igbo_Translation.docx"
 doc.save(file_path)
 
 # Provide download link to user
